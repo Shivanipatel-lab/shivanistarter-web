@@ -28,42 +28,43 @@
     <h2>@container</h2>
 
     <h3>Fluid Container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
+    <div class="container-fluid">This is a fluid container and it will go till the end of the page</div>
 
     <h3>Center Container</h3>
-    <div>This is a centered container and it will go till the end of the page</div>
+    <div class="container-center">This is a centered container and it will go till the specified of the page</div>
 
     <hr>
 
     <h2>@links</h2>
-    <a href="/">Primary Link</a><br>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="/"> Primary Link</a>
+    <a class="link link-secondary" href="/"> Secondary Link</a>
 
     <hr>
 
     <h2>@lists</h2>
     <h3>Unordered lists</h3>
-    <ul>
+    <p>This list will not have bullet</p>
 
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item three</li>
+        <li>Item Four</li>
     </ul>
-    <li>Item One</li>
-    <li>Item Two</li>
-    <li>Item three</li>
-    <li>Item Four</li>
 
     <h3>unordered inline list</h3>
 
-    <ul>
+    <ul class="list-non-bullet">
 
-        <li>Inline Item One</li>
-        <li>Inline Item two</li>
-        <li>Inline Item Three</li>
-        <li>Inline Item four</li>
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item two</li>
+        <li class="list-item-inline">Inline Item Three</li>
+        <li class="list-item-inline">Inline Item four</li>
     </ul>
 
     <h3>reverse ordered list</h3>
 
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>eggs</li>
         <li>bread</li>
@@ -74,58 +75,62 @@
     <hr>
 
     <h2>@nav</h2>
+    <nav class="navigation container">
 
-    <div>
-        <div>IAMCREATOR</div>
-        <ul>
-            <li>
+        <div class="nav-brand">IAMCREATOR</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
                 <a href="/">home</a>
             </li>
 
-            <li>
+            <li class="list-item-inline">
                 <a href="/">products</a>
             </li>
 
-            <li>
+            <li class="list-item-inline">
                 <a href="/">about</a>
             </li>
 
 
         </ul>
-    </div>
-    <hr>
-    <h2>header</h2>
-    <header>
-        <img src="images/hero.svg" />
-        <h1>Heading inside hero</h1>
-    </header>
+        </nav>
+        
+        </div>
+        <hr>
 
 
-    <hr>
-    <h2>@section</h2>
+        <h2>header</h2>
+        <header>
+            <img src="images/hero.svg" />
+            <h1>Heading inside hero</h1>
+        </header>
 
-    <section>
-        <h3>white section</h3>
-        <p>this will have white background</p>
 
-    </section>
-    <section>
-        <h3>off white section</h3>
-        <p>this will have gray background</p>
+        <hr>
+        <h2>@section</h2>
 
-    </section>
-    <hr>
-    <h2>@footer</h2>
-    <footer>
-        <div>some small heading inside footer</div>
-        <ul>
-            <li>socialOne</li>
-            <li>socialTwo</li>
-            <li>socialThree</li>
-        </ul>
-    </footer>
+        <section>
+            <h3>white section</h3>
+            <p>this will have white background</p>
 
-    </div>
+        </section>
+        <section>
+            <h3>off white section</h3>
+            <p>this will have gray background</p>
+
+        </section>
+        <hr>
+        <h2>@footer</h2>
+        <footer>
+            <div>some small heading inside footer</div>
+            <ul>
+                <li>socialOne</li>
+                <li>socialTwo</li>
+                <li>socialThree</li>
+            </ul>
+        </footer>
+
+        </div>
 
 </body>
 
