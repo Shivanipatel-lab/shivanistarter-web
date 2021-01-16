@@ -32,9 +32,11 @@ body{
 
 /**links**/
 .link 
-{
+{   box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 
