@@ -150,8 +150,14 @@ padding: 0rem 0.5rem;
     color: white;
     border-top-right-radius: 1rem;
 }
+
 .footer .link{
     color: white;
+}
+
+footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul{
