@@ -13,6 +13,15 @@ body{
     margin: 0px;
 }
 
+hr {
+    margin: 2rem 0rem;
+}
+
+
+.margin-md {
+    margin: 2rem;
+}
+
 
 
 .container
@@ -35,8 +44,8 @@ body{
 {   box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+   /* margin-top: 1rem;
+    margin-bottom: 1rem;*/
 }
 
 
@@ -105,6 +114,7 @@ padding: 0rem 0.5rem;
 .hero
 {
     padding: 2rem;
+    padding-top: 5rem;
    
 }
 
